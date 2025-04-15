@@ -1,9 +1,14 @@
 {
-  "name": "mojang-api-server",
+  "name": "ob-check-pseudo",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "API pour vérifier les pseudos Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
-  }
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
 }
